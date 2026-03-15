@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musikproduktion & Musik in den Weltreligionen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/moon.css">
+  <style>
+    :root {
+      --r-main-font: 'Montserrat', sans-serif;
+      --r-heading-font: 'Montserrat', sans-serif;
+      --r-heading-text-transform: none;
+      --r-heading-font-weight: 700;
+    }
+    .reveal h1, .reveal h2, .reveal h3 {
+      text-transform: none;
+    }
+    .reveal ul {
+      display: block;
+    }
+    .reveal .slides section {
+      text-align: left;
+    }
+    .reveal .slides section.center-slide {
+      text-align: center;
+    }
+
+    /* Serum spotlight slide */
+    .serum-container {
+      position: relative;
+      display: inline-block;
+      max-width: 75%;
+    }
+    .serum-container img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+    .serum-spotlight {
+      position: absolute;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7);
+      z-index: 2;
+      pointer-events: none;
+      transition: top 0.8s cubic-bezier(.4,0,.2,1),
+                  left 0.8s cubic-bezier(.4,0,.2,1),
+                  width 0.8s cubic-bezier(.4,0,.2,1),
+                  height 0.8s cubic-bezier(.4,0,.2,1);
+    }
+    /* Initial state: no spotlight visible */
+    .serum-spotlight.hidden {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .serum-spotlight.visible {
+      opacity: 1;
+      transition: opacity 0.4s ease,
+                  top 0.8s cubic-bezier(.4,0,.2,1),
+                  left 0.8s cubic-bezier(.4,0,.2,1),
+                  width 0.8s cubic-bezier(.4,0,.2,1),
+                  height 0.8s cubic-bezier(.4,0,.2,1);
+    }
+
+    .serum-label {
+      position: absolute;
+      bottom: -2.2em;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.75em;
+      color: #ccc;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .serum-label.visible {
+      opacity: 1;
+    }
+
+    /* DAW list grid */
+    .daw-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.3em 2em;
+      font-size: 0.85em;
+    }
+
+    /* Religion emoji sizing */
+    .religion-icon {
+      font-size: 1.5em;
+      margin-right: 0.3em;
+      vertical-align: middle;
+    }
+
+    .reveal .slide-title {
+      margin-bottom: 0.6em;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ============================================ -->
+      <!-- TEIL 1: MUSIKPRODUKTION                      -->
+      <!-- ============================================ -->
+      <section>
+
+        <!-- Slide 1: Titel -->
+        <section class="center-slide" data-background-gradient="radial-gradient(circle, #1a237e 0%, #0d1117 70%)">
+          <h2>Musikproduktion<br>&amp; Musik in den Weltreligionen</h2>
+          <p><em>Oskar Rotman</em></p>
+        </section>
+
+        <!-- Slide 2: Was ist Musikproduktion? -->
+        <section>
+          <h2 class="slide-title">Was ist Musikproduktion?</h2>
+          <ul>
+            <li class="fragment"><strong>Prozess</strong> — Der gesamte Weg von der ersten Idee bis zum fertigen Song</li>
+            <li class="fragment"><strong>Technologie &amp; Kreativität</strong> — Verbindung von technischem Wissen und künstlerischem Ausdruck</li>
+            <li class="fragment"><strong>Ziel</strong> — Einen professionell klingenden Track zu erstellen, der auf allen Plattformen veröffentlicht werden kann</li>
+          </ul>
+        </section>
+
+        <!-- Slide 3: Schritte der Musikproduktion -->
+        <section>
+          <h2 class="slide-title">Schritte der Musikproduktion</h2>
+          <ol>
+            <li class="fragment"><strong>Komposition</strong> — Melodien, Akkorde und Songstruktur entwickeln</li>
+            <li class="fragment"><strong>Sound Design</strong> — Klänge erstellen und formen (Synthesizer, Samples)</li>
+            <li class="fragment"><strong>Aufnahme</strong> — Vocals, Instrumente und andere Audioquellen aufnehmen</li>
+            <li class="fragment"><strong>Mixing</strong> — Alle Spuren in Lautstärke, Panning und Effekten ausbalancieren</li>
+            <li class="fragment"><strong>Mastering</strong> — Finaler Feinschliff für Lautheit, Klarheit und Konsistenz</li>
+          </ol>
+        </section>
+
+        <!-- Slide 4: DAWs -->
+        <section>
+          <h2 class="slide-title">DAWs — Digital Audio Workstations</h2>
+          <p>Software, mit der Musik am Computer produziert, aufgenommen und bearbeitet wird.</p>
+          <br>
+          <h3>Populäre DAWs</h3>
+          <div class="daw-grid">
+            <div>FL Studio</div>
+            <div>Ableton Live</div>
+            <div>Logic Pro</div>
+            <div>Cubase</div>
+            <div>Pro Tools</div>
+            <div>Reaper</div>
+          </div>
+        </section>
+
+        <!-- Slide 5: FL Studio -->
+        <section>
+          <h2 class="slide-title">FL Studio — Hauptfunktionen</h2>
+          <ul>
+            <li class="fragment"><strong>Channel Rack</strong> — Instrumente und Samples laden und Patterns erstellen</li>
+            <li class="fragment"><strong>Playlist</strong> — Patterns und Audioclips auf einer Zeitachse anordnen</li>
+            <li class="fragment"><strong>Mixer</strong> — Lautstärke, Effekte und Routing für jede Spur steuern</li>
+            <li class="fragment"><strong>Piano Roll</strong> — MIDI-Noten präzise zeichnen und bearbeiten</li>
+          </ul>
+        </section>
+
+        <!-- Slide 6: Serum – ein Slide mit morphendem Spotlight -->
+        <section class="center-slide" id="serum-slide">
+          <div class="serum-container">
+            <img src="images/serum.png" alt="Serum Synthesizer">
+            <div class="serum-spotlight hidden" id="serum-spot"></div>
+          </div>
+          <div class="serum-label" id="serum-label"></div>
+          <!-- Invisible fragments to drive the animation steps -->
+          <span class="fragment" data-serum-step="0"></span>
+          <span class="fragment" data-serum-step="1"></span>
+          <span class="fragment" data-serum-step="2"></span>
+          <span class="fragment" data-serum-step="3"></span>
+        </section>
+
+      </section>
+
+      <!-- ============================================ -->
+      <!-- TEIL 2: MUSIK IN DEN WELTRELIGIONEN          -->
+      <!-- ============================================ -->
+      <section>
+
+        <!-- Slide 11: Überleitung -->
+        <section class="center-slide" data-background-gradient="radial-gradient(circle, #1a237e 0%, #0d1117 70%)">
+          <h1>Musik in den Weltreligionen</h1>
+          <p><em>Musik als universelle Sprache des Glaubens</em></p>
+        </section>
+
+        <!-- Slide 12: Christentum -->
+        <section>
+          <h2 class="slide-title"><span class="religion-icon">&#10013;</span> Christentum</h2>
+          <ul>
+            <li class="fragment"><strong>Gregorianischer Choral</strong> — Einstimmige, lateinische Gesänge aus dem Mittelalter; Grundlage der europäischen Musikgeschichte</li>
+            <li class="fragment"><strong>Orgel &amp; Kirchenmusik</strong> — Die Orgel als „Königin der Instrumente"; Bach, Händel und die Tradition sakraler Kompositionen</li>
+            <li class="fragment"><strong>Gospels &amp; Spirituals</strong> — Afroamerikanische geistliche Musik; emotional, gemeinschaftlich, Ausdruck von Hoffnung</li>
+            <li class="fragment"><strong>Hymnen &amp; Choräle</strong> — Gemeindelieder als zentraler Bestandteil des Gottesdienstes</li>
+          </ul>
+        </section>
+
+        <!-- Slide 13: Islam -->
+        <section>
+          <h2 class="slide-title"><span class="religion-icon">&#9790;</span> Islam</h2>
+          <ul>
+            <li class="fragment"><strong>Adhan (Gebetsruf)</strong> — Fünfmal täglich vom Muezzin gerufen; melodisch, aber nicht als „Musik" betrachtet</li>
+            <li class="fragment"><strong>Qur'an-Rezitation</strong> — Kunstvoll vorgetragene Koranverse (Tajwid); gilt als höchste stimmliche Kunst</li>
+            <li class="fragment"><strong>Sufi-Musik</strong> — Qawwali (Hingabe durch Gesang, Pakistan/Indien) und Sema (Tanz der Derwische, Türkei)</li>
+            <li class="fragment"><strong>Debatte über Musik</strong> — Unterschiedliche Auslegungen: manche Gelehrte erlauben Musik, andere beschränken sie</li>
+          </ul>
+        </section>
+
+        <!-- Slide 14: Judentum -->
+        <section>
+          <h2 class="slide-title"><span class="religion-icon">&#10017;</span> Judentum</h2>
+          <ul>
+            <li class="fragment"><strong>Synagogale Musik</strong> — Kantoren (Chazzanim) leiten den liturgischen Gesang mit kunstvollen Melodien</li>
+            <li class="fragment"><strong>Psalmen</strong> — Die 150 Psalmen der Bibel wurden ursprünglich gesungen und begleitet</li>
+            <li class="fragment"><strong>Schofar</strong> — Widderhorn, eines der ältesten Instrumente; wird an Rosch ha-Schana und Jom Kippur geblasen</li>
+            <li class="fragment"><strong>Klezmer</strong> — Volkstümliche Instrumentalmusik der osteuropäischen Juden; lebhaft und emotional</li>
+          </ul>
+        </section>
+
+        <!-- Slide 15: Hinduismus -->
+        <section>
+          <h2 class="slide-title"><span class="religion-icon">&#2384;</span> Hinduismus</h2>
+          <ul>
+            <li class="fragment"><strong>Om (&#2384;)</strong> — Der Urklang des Universums; Grundlage aller Mantras und spirituellen Praxis</li>
+            <li class="fragment"><strong>Bhajans &amp; Kirtans</strong> — Hingebungsvolle Gesänge zur Verehrung der Götter; gemeinschaftlich gesungen</li>
+            <li class="fragment"><strong>Ragas</strong> — Melodische Grundstrukturen der indischen Klassik; jeder Raga drückt eine bestimmte Stimmung und Tageszeit aus</li>
+            <li class="fragment"><strong>Instrumente</strong> — Sitar, Tabla, Harmonium, Tanpura — tief in der spirituellen Tradition verwurzelt</li>
+          </ul>
+        </section>
+
+        <!-- Slide 16: Buddhismus -->
+        <section>
+          <h2 class="slide-title"><span class="religion-icon">&#9784;</span> Buddhismus</h2>
+          <ul>
+            <li class="fragment"><strong>Mantras</strong> — Wiederholte heilige Silben (z.&thinsp;B. „Om Mani Padme Hum") zur Fokussierung des Geistes</li>
+            <li class="fragment"><strong>Klangschalen</strong> — Metallschalen, die durch Anschlagen oder Reiben einen anhaltenden Ton erzeugen; genutzt in Meditation</li>
+            <li class="fragment"><strong>Zeremonielle Musik</strong> — Hörner, Trommeln und Glocken in tibetisch-buddhistischen Ritualen</li>
+            <li class="fragment"><strong>Meditation &amp; Klang</strong> — Klang als Werkzeug für Achtsamkeit, innere Ruhe und Erleuchtung</li>
+          </ul>
+        </section>
+
+        <!-- Slide 17: Gemeinsamkeiten & Fazit -->
+        <section>
+          <h2 class="slide-title">Gemeinsamkeiten &amp; Fazit</h2>
+          <ul>
+            <li class="fragment"><strong>Brücke zum Göttlichen</strong> — In allen Religionen dient Musik als Verbindung zwischen Mensch und dem Transzendenten</li>
+            <li class="fragment"><strong>Gemeinschaft</strong> — Gemeinsames Singen und Musizieren stärkt das Zugehörigkeitsgefühl der Gläubigen</li>
+            <li class="fragment"><strong>Meditation &amp; Trance</strong> — Wiederholung und Rhythmus führen zu vertieften Bewusstseinszuständen</li>
+            <li class="fragment"><strong>Orale Tradition</strong> — Musik bewahrt und überliefert heilige Texte über Generationen hinweg</li>
+          </ul>
+        </section>
+
+        <!-- Slide 18: Danke -->
+        <section class="center-slide" data-background-gradient="radial-gradient(circle, #1a237e 0%, #0d1117 70%)">
+          <h1>Danke!</h1>
+          <p><em>Oskar Rotman</em></p>
+        </section>
+
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'slide',
+      width: 1280,
+      height: 720
+    });
+
+    // Serum spotlight animation driven by Reveal.js fragments
+    const spot = document.getElementById('serum-spot');
+    const label = document.getElementById('serum-label');
+
+    const serumSteps = [
+      { top: '11%',  left: '17%',  width: '27%', height: '41%', label: 'Oszillator — erzeugt den Grundklang durch Wavetable-Synthese' },
+      { top: '11%',  left: '74%', width: '21%', height: '41%', label: 'Filter — formt den Klang durch Abschwächung bestimmter Frequenzen' },
+      { top: '52%', left: '8%',  width: '32%', height: '34%', label: 'Hüllkurve (Envelope) — steuert den zeitlichen Verlauf (ADSR)' },
+      { top: '52%', left: '40%', width: '39%', height: '34%', label: 'LFO — moduliert Parameter rhythmisch für Bewegung im Klang' }
+    ];
+
+    function applyStep(stepIndex) {
+      const s = serumSteps[stepIndex];
+      spot.style.top = s.top;
+      spot.style.left = s.left;
+      spot.style.width = s.width;
+      spot.style.height = s.height;
+      spot.classList.remove('hidden');
+      spot.classList.add('visible');
+      label.textContent = s.label;
+      label.classList.add('visible');
+    }
+
+    function hideSpot() {
+      spot.classList.remove('visible');
+      spot.classList.add('hidden');
+      label.classList.remove('visible');
+      label.textContent = '';
+    }
+
+    Reveal.on('fragmentshown', function(event) {
+      const step = event.fragment.getAttribute('data-serum-step');
+      if (step !== null) {
+        applyStep(parseInt(step));
+      }
+    });
+
+    Reveal.on('fragmenthidden', function(event) {
+      const step = event.fragment.getAttribute('data-serum-step');
+      if (step !== null) {
+        const idx = parseInt(step);
+        if (idx === 0) {
+          hideSpot();
+        } else {
+          applyStep(idx - 1);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

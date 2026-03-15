@@ -1,0 +1,173 @@
+STICHWORTZETTEL — Musikproduktion & Musik in den Weltreligionen
+================================================================
+
+────────────────────────────────────────
+SLIDE 1 — Titelfolie
+────────────────────────────────────────
+- Begrüßung
+- Thema ankündigen: zwei Teile
+  1. Musikproduktion (technisch)
+  2. Musik in den Weltreligionen (kulturell/spirituell)
+
+
+────────────────────────────────────────
+SLIDE 2 — Was ist Musikproduktion?
+────────────────────────────────────────
+- Prozess: Von der Idee zum fertigen Song
+- Technologie + Kreativität: Man braucht beides — technisches Wissen UND künstlerischen Ausdruck
+- Ziel: Professionellen Track erstellen, der auf Spotify, YouTube etc. veröffentlicht werden kann
+
+
+────────────────────────────────────────
+SLIDE 3 — Schritte der Musikproduktion
+────────────────────────────────────────
+- Komposition: Melodien, Akkorde, Songstruktur ausdenken
+- Sound Design: Klänge mit Synthesizern oder Samples formen
+- Aufnahme: Vocals/Instrumente aufnehmen (Mikrofon, Audio-Interface)
+- Mixing: Alle Spuren zusammenbringen — Lautstärke, Panning, Effekte (EQ, Reverb, Compression)
+- Mastering: Letzter Schritt — Lautheit anpassen, Klarheit, Konsistenz über alle Lautsprecher
+
+
+────────────────────────────────────────
+SLIDE 4 — DAWs (Digital Audio Workstations)
+────────────────────────────────────────
+- DAW = Software zum Musikproduzieren am Computer
+- FL Studio — beliebt bei Hip-Hop/EDM, Einsteigerfreundlich
+- Ableton Live — stark für Live-Performance und elektronische Musik
+- Logic Pro — nur Mac, von Apple, viele eingebaute Instrumente
+- Cubase — Steinberg (deutsch!), stark im Recording
+- Pro Tools — Industriestandard in professionellen Studios
+- Reaper — günstig, leichtgewichtig, sehr anpassbar
+
+
+────────────────────────────────────────
+SLIDE 5 — FL Studio – Hauptfunktionen
+────────────────────────────────────────
+- Channel Rack: Hier lädt man Instrumente/Samples und erstellt Patterns (Schlagzeug-Patterns etc.)
+- Playlist: Patterns und Audioclips auf einer Zeitleiste anordnen → der ganze Song
+- Mixer: Jede Spur hat einen Kanal — Lautstärke, Effekte (Hall, EQ), Routing
+- Piano Roll: MIDI-Noten zeichnen — Melodien und Akkorde präzise eingeben
+
+
+────────────────────────────────────────
+SLIDE 6 — Serum Synthesizer (Spotlight-Animation)
+────────────────────────────────────────
+[Übersicht — ohne Highlight]
+- Serum = Wavetable-Synthesizer von Xfer Records
+- Einer der beliebtesten Synths in der EDM-Produktion
+- Visuell: man sieht die Wellenformen und kann alles grafisch bearbeiten
+
+[Klick 1 → Oszillator]
+- OSC A und OSC B erzeugen den Grundklang
+- Wavetable-Synthese: verschiedene Wellenformen durchfahren
+- Man kann eigene Wavetables importieren oder zeichnen
+
+[Klick 2 → Filter]
+- Formt den Klang — bestimmte Frequenzen werden abgeschwächt oder verstärkt
+- Verschiedene Filtertypen: Low-Pass, High-Pass, Band-Pass etc.
+- Cutoff und Resonance sind die wichtigsten Parameter
+
+[Klick 3 → Hüllkurve / Envelope]
+- ADSR: Attack, Decay, Sustain, Release
+- Steuert wie sich ein Parameter über die Zeit verändert
+- z.B. wie schnell ein Ton einsetzt oder ausklingt
+
+[Klick 4 → LFO]
+- Low Frequency Oscillator
+- Moduliert Parameter rhythmisch (z.B. Lautstärke oder Filter-Cutoff)
+- Erzeugt Bewegung und Leben im Sound (Wobble-Bass etc.)
+
+
+════════════════════════════════════════
+TEIL 2 — MUSIK IN DEN WELTRELIGIONEN
+════════════════════════════════════════
+
+────────────────────────────────────────
+SLIDE 7 — Überleitung
+────────────────────────────────────────
+- Übergang: Von der technischen Seite zur kulturellen/spirituellen
+- Musik ist eine universelle Sprache — in jeder Religion spielt sie eine zentrale Rolle
+- Verbindet Menschen mit dem Göttlichen, schafft Gemeinschaft
+
+
+────────────────────────────────────────
+SLIDE 8 — Christentum
+────────────────────────────────────────
+- Gregorianischer Choral: Einstimmig, Latein, Mittelalter — Grundlage europäischer Musik
+  → Mönche haben diese Gesänge in Klöstern entwickelt
+- Orgel & Kirchenmusik: Orgel = „Königin der Instrumente"
+  → Bach, Händel — große sakrale Komponisten
+- Gospels & Spirituals: Afroamerikanisch, emotional, Hoffnung und Gemeinschaft
+  → Entstanden durch Sklaverei in den USA
+- Hymnen & Choräle: Gemeindelieder im Gottesdienst — alle singen zusammen
+
+
+────────────────────────────────────────
+SLIDE 9 — Islam
+────────────────────────────────────────
+- Adhan: Gebetsruf, 5x täglich vom Muezzin — melodisch, aber NICHT als Musik betrachtet
+  → Es ist ein Ruf zum Gebet, keine musikalische Aufführung
+- Qur'an-Rezitation (Tajwid): Kunstvoll vorgetragen, gilt als höchste stimmliche Kunst
+  → Strenge Regeln für Aussprache und Melodie
+- Sufi-Musik: Mystische Strömung des Islam
+  → Qawwali: Hingebungsvoller Gesang (Pakistan/Indien, z.B. Nusrat Fateh Ali Khan)
+  → Sema: Tanz der Derwische (Türkei, Mevlevi-Orden) — kreisen um eigene Achse
+- Debatte: Manche Gelehrte sagen Musik ist erlaubt, andere verbieten sie
+  → Keine einheitliche Meinung im Islam
+
+
+────────────────────────────────────────
+SLIDE 10 — Judentum
+────────────────────────────────────────
+- Synagogale Musik: Kantoren (Chazzanim) leiten den Gesang
+  → Kunstvolle Melodien, improvisiert
+- Psalmen: 150 Psalmen in der Bibel — wurden ursprünglich gesungen und mit Instrumenten begleitet
+  → König David gilt als Verfasser vieler Psalmen
+- Schofar: Widderhorn — eines der ältesten Instrumente der Welt
+  → Wird an Rosch ha-Schana (Neujahr) und Jom Kippur (Versöhnungstag) geblasen
+- Klezmer: Volkstümliche Instrumentalmusik der osteuropäischen Juden
+  → Lebhaft, emotional, Klarinette typisch
+
+
+────────────────────────────────────────
+SLIDE 11 — Hinduismus
+────────────────────────────────────────
+- Om (ॐ): Der Urklang des Universums — Grundlage aller Mantras
+  → Wird am Anfang und Ende von Gebeten gesprochen
+- Bhajans & Kirtans: Hingebungsvolle Gesänge zur Verehrung der Götter
+  → Gemeinschaftlich gesungen, oft mit Klatschen und Tanzen
+- Ragas: Melodische Grundstrukturen der indischen klassischen Musik
+  → Jeder Raga passt zu einer bestimmten Tageszeit oder Stimmung
+- Instrumente: Sitar (Saiteninstrument), Tabla (Trommeln), Harmonium, Tanpura (Bordun)
+  → Tief in der spirituellen Tradition verwurzelt
+
+
+────────────────────────────────────────
+SLIDE 12 — Buddhismus
+────────────────────────────────────────
+- Mantras: Wiederholte heilige Silben, z.B. „Om Mani Padme Hum"
+  → Fokussiert den Geist, bringt innere Ruhe
+- Klangschalen: Metallschalen, erzeugen langen, schwingenden Ton
+  → Werden in der Meditation verwendet
+- Zeremonielle Musik: Hörner, Trommeln, Glocken
+  → Besonders in tibetisch-buddhistischen Ritualen
+- Meditation & Klang: Klang als Werkzeug für Achtsamkeit und Erleuchtung
+
+
+────────────────────────────────────────
+SLIDE 13 — Gemeinsamkeiten & Fazit
+────────────────────────────────────────
+- Brücke zum Göttlichen: In ALLEN Religionen verbindet Musik Mensch und das Transzendente
+- Gemeinschaft: Zusammen singen stärkt das Zugehörigkeitsgefühl
+- Meditation & Trance: Wiederholung und Rhythmus → vertiefte Bewusstseinszustände
+- Orale Tradition: Musik bewahrt heilige Texte über Generationen
+  → Bevor es Schrift gab, wurde alles gesungen überliefert
+
+→ Abschluss: Musik ist mehr als Unterhaltung — sie ist eine der ältesten Formen menschlichen Ausdrucks und in jeder Kultur tief verwurzelt.
+
+
+────────────────────────────────────────
+SLIDE 14 — Danke
+────────────────────────────────────────
+- Bedanken
+- Fragen?
